@@ -4,8 +4,8 @@ terraform {
     key            = "state"
     region         = "us-east-1"
     encrypt        = true
-    role_arn       = "arn:aws:iam::446567516155:role/DevS3BackendRole"
-    dynamodb_table = "DEV-s3-backend"
+    role_arn       = "arn:aws:iam::434839081440:role/DEV0001S3BackendRole"
+    dynamodb_table = "DEV0001-s3-backend"
   }
 }
 
