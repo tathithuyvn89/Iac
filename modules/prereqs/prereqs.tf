@@ -39,7 +39,7 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "s3_bucket" {
 /////////////////////////////////////////
 
 resource "aws_s3_bucket" "codepipeline_bucket" {
-  bucket = "${lower(var.environment)}-bucket-evnfc-001"
+  bucket = "${lower(var.environment)}-bucket-falfla-001"
   //acl    = "private"
 
   /* This bucket MUST have versioning enabled and encryption */

@@ -1,7 +1,7 @@
 ////////////////////envicroment information////////////////////////////////////////////
 /////////DEV: 10.110.0.0/16, UAT: 10.104.0.0/16, PROD: 10.105.0.0/16  /////////////////
 aws_account   = "434839081440" //ID 12 digits AWS account
-environment   = "PROD"
+environment   = "DEV0001"
 aws_region    = "us-east-1"
 vpc_cidr      = "10.110.0.0/16"
 default_allow_subnets_cidr = []
